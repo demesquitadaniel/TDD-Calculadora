@@ -12,16 +12,16 @@ public class Calculadora {
         return num1 - num2;
     }
 
-    public int multiplicar(int a, int b) {
-        return a * b;
+    public int multiplicar(int num1, int num2) {
+        return num1 * num2;
     }
 
-    public int dividir(int a, int b) throws Exception {
-        if(b == 0) {
+    public int dividir(int num1, int num2) throws Exception {
+        if(num2 == 0) {
             throw new Exception("Não pode ser dividido por zero.");
         } else {
 
-            return a / b;
+            return num1 / num2;
         }
     }
 }
