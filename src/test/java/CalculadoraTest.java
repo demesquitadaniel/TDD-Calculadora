@@ -1,16 +1,8 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CalculadoraTest {
-
-    // Red - Escrever um teste que falha
-
-    // Green -
-    // Escreve o código que faz o teste passar (mínimo necessário)
-
-    // Refactor - Melhorar nosso código
-
-
 
     @Test
     public void deveSomarCorretamente() {
